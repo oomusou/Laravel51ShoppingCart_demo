@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb64081-de74-44b1-9fb7-4984f17edd13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Models/Book.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Services/ShoppingCartService.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ShoppingCartTest.php" afterPath="$PROJECT_DIR$/tests/ShoppingCartTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Laravel51ShoppingCart_demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,14 +22,14 @@
     <favorites_list name="Laravel51ShoppingCart_demo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4875">
       <split-first>
         <leaf>
           <file leaf-file-name="ShoppingCartTest.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/ShoppingCartTest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5140562">
-                  <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+                <state vertical-scroll-proportion="0.48594376">
+                  <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
                   <folding>
                     <element signature="e#7#44#0#PHP" expanded="true" />
                   </folding>
@@ -311,8 +308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ShoppingCartTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5140562">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.48594376">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding>
             <element signature="e#7#44#0#PHP" expanded="true" />
           </folding>
