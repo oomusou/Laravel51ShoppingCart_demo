@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb64081-de74-44b1-9fb7-4984f17edd13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ShoppingCartTest.php" afterPath="$PROJECT_DIR$/tests/ShoppingCartTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/ShoppingCartService.php" afterPath="$PROJECT_DIR$/app/Services/ShoppingCartService.php" />
     </list>
     <ignored path="Laravel51ShoppingCart_demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +44,8 @@
           <file leaf-file-name="ShoppingCartService.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/Services/ShoppingCartService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2248996">
-                  <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.8353414">
+                  <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -63,8 +62,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/Models/Book.php" />
-        <option value="$PROJECT_DIR$/app/Services/ShoppingCartService.php" />
         <option value="$PROJECT_DIR$/tests/ShoppingCartTest.php" />
+        <option value="$PROJECT_DIR$/app/Services/ShoppingCartService.php" />
       </list>
     </option>
   </component>
@@ -290,14 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ShoppingCartService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2248996">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/ShoppingCartTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48594376">
@@ -305,6 +296,14 @@
           <folding>
             <element signature="e#7#44#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/ShoppingCartService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8353414">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
