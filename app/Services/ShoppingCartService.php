@@ -28,6 +28,8 @@ class ShoppingCartService
     }
 
     /**
+     * 新增至購物車
+     *
      * @param Book $book
      */
     public function addToCart($book)
@@ -36,25 +38,27 @@ class ShoppingCartService
     }
 
     /**
+     * 結帳
+     *
      * @return integer
      */
     public function checkOut()
     {
-        $total = 0;
-        $this->basket->each(function ($item) use (&$total) {
-            /** @var Book $item */
-            $total += $item->price;
+        $unique = $this->basket->unique();
+        $unique->each(function ($item, $key) {
+            $this->basket->forget($key);
         });
+        $others = $this->basket;
 
-        $count = $this->basket->count();
-        $discount = $this->discount($count);
-
-        $price = $total * $discount;
+        $price = $unique->sum('price') * $this->discount($unique->count());
+        $price += $others->sum('price') * $this->discount($others->count());
 
         return $price;
     }
 
     /**
+     * 計算折扣匯率
+     *
      * @param integer $count
      * @return float
      */
