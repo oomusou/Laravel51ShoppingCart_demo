@@ -1,8 +1,7 @@
 <?php
 
-use Illuminate\Foundation\Testing\WithoutMiddleware;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use App\Services\ShoppingCartService;
+use App\Models\Book;
 
 class ShoppingCartTest extends TestCase
 {
