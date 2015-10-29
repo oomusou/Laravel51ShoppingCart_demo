@@ -159,4 +159,33 @@ class ShoppingCartTest extends TestCase
         // Assert
         $this->assertEquals($expected, $actual);
     }
+
+    /**
+     * Given 第一集買了 1 本
+     * And   第二集買了 1 本
+     * And   第三集買了 2 本
+     * And   第四集買了 0 本
+     * And   第五集買了 0 本
+     * When  結帳
+     * Then  價格應為 370 元
+     *
+     * @group ShoppingCartTest
+     * @group ShoppingCartTest5
+     */
+    public function testBuy_1_book1_and_1_book2_and_2_book3_should_cost_370()
+    {
+        // Arrange
+        $this->target->addToCart(new Book('book1', 100));
+        $this->target->addToCart(new Book('book2', 100));
+        $this->target->addToCart(new Book('book3', 100));
+        $this->target->addToCart(new Book('book3', 100));
+
+        $expected = 370;
+
+        // Act
+        $actual = $this->target->checkOut();
+
+        // Assert
+        $this->assertEquals($expected, $actual);
+    }
 }
