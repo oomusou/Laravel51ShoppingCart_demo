@@ -68,6 +68,8 @@ class ShoppingCartService
             $discount = 0.9;
         elseif ($count == 4)
             $discount = 0.8;
+        elseif ($count == 5)
+            $discount = 0.75;
         else
             $discount = 1.0;
 
