@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb64081-de74-44b1-9fb7-4984f17edd13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ShoppingCartTest.php" afterPath="$PROJECT_DIR$/tests/ShoppingCartTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/ShoppingCartService.php" afterPath="$PROJECT_DIR$/app/Services/ShoppingCartService.php" />
     </list>
     <ignored path="Laravel51ShoppingCart_demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,14 +41,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Book.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Models/Book.php">
+          <file leaf-file-name="ShoppingCartService.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Services/ShoppingCartService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48594376">
-                  <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#7#90#0#PHP" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="0.2248996">
+                  <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -63,9 +61,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Services/ShoppingCartService.php" />
         <option value="$PROJECT_DIR$/app/Models/Book.php" />
         <option value="$PROJECT_DIR$/tests/ShoppingCartTest.php" />
+        <option value="$PROJECT_DIR$/app/Services/ShoppingCartService.php" />
       </list>
     </option>
   </component>
@@ -276,36 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ShoppingCartService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2570281">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder=" @var Collection ..." />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder=" ShoppingCartService constructor. ..." />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder=" @param Book $book ..." />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446083924000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48594376">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="e#7#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/ShoppingCartTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48594376">
@@ -313,6 +281,29 @@
           <folding>
             <element signature="e#7#44#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45381525">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <marker date="1446083944000" expanded="true" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1446083944000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1446083944000" expanded="true" signature="-1:-1" placeholder=" @var string ..." />
+            <marker date="1446083944000" expanded="true" signature="-1:-1" placeholder=" @var integer ..." />
+            <marker date="1446083944000" expanded="true" signature="-1:-1" placeholder=" Book constructor. ..." />
+            <marker date="1446083944000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/ShoppingCartService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2248996">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

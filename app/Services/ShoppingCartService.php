@@ -35,6 +35,9 @@ class ShoppingCartService
         $this->basket->push($book);
     }
 
+    /**
+     * @return integer
+     */
     public function checkOut()
     {
         $total = 0;
@@ -44,13 +47,29 @@ class ShoppingCartService
         });
 
         $count = $this->basket->count();
-        $discount = 1;
-
-        if ($count == 1)
-            $discount = 1.0;
+        $discount = $this->discount($count);
 
         $price = $total * $discount;
 
         return $price;
+    }
+
+    /**
+     * @param integer $count
+     * @return float
+     */
+    protected function discount($count)
+    {
+        if ($count == 1)
+            $discount = 1.0;
+        elseif ($count == 2)
+            $discount = 0.95;
+        else
+            $discount = 1.0;
+
+        return $discount;
+
+
+
     }
 }
